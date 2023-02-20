@@ -33,6 +33,8 @@ _Depth maps (\*.png): Depth ground truth with the same resolution as the images.
 ## License
 The iDFD dataset and the code is released using the UPB license.
 
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+
 
 ## Citation  
 If you use the iDFD dataset please cite:
