@@ -1,4 +1,5 @@
 # iDFD
+iDFD: A Dataset Annotated for Depth and Defocus
 We have published the iDFD: dataset, which includes RGB images (all-in-focus, out-of-focus) and depth maps. 
 An overview of the dataset are shown as follows:
 
