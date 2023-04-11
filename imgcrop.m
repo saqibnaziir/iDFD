@@ -7,6 +7,11 @@
 %  09/06/2021  QIU  Original code.
 %  -------------------------------------------------------------------------------------------------------------------------------------
 %  Description: image crop
+%  (x1, y1)
+%  (x2, y2)
+%  (x1, y1, x2-x1, y2-y1)       
+%  or(y1, x1, y2-y1, x2-x1)
+%  --------------------------------
 %  -------------------------------------------------------------------------------------------------------------------------------------
 %  Input:
 %  open folder with image series
@@ -20,8 +25,8 @@ close all % clear all graphics
 
 % my_folder = uigetdir('D:/Vigo/Screipts/Test/');
 % file_pattern = fullfile(my_folder, '*.jpg');
-% file_name = dir(file_pattern);
-file_name = dir('G:\Mesuem\1\RGB\Captures\1');
+% file_name = dir(file_pattern); F:\Test\1
+file_name = dir('G:\Vigo_RAW\Lab\Lab_7\Crop\**\*.png');
 length = length(file_name);
 
 %p=parpool(4); % parpool setting
@@ -38,7 +43,7 @@ for k = 1:length
     %r = centerCropWindow2d(size(I), targetSize);
 %     J = imcrop(I);
 %     [J,rect] = imcrop(I);
-    J = imcrop(I, [860 250 1050 1050]);
+    J = imcrop(I, [900 300 1049 1049]);
     imwrite(J, full_fileName);
 end
 

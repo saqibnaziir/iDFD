@@ -25,4 +25,5 @@ for k = 1:length
     image(depth_array,'CDataMapping','scaled');  % Display image.
     colorbar;
     drawnow; % Force display to update immediately.
+    impixelinfo;
 end

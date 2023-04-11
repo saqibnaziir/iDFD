@@ -12,8 +12,8 @@ import numpy as np
 
 def main():
    
-    imgpath="G:\\1.Final_Without_Inpainting\\Resized\\Out_Of_Focus\\"
-    resizedpath="G:\\1.Final_Without_Inpainting\\Normalized\\Out_Of_Focus\\"
+    imgpath="G:\\1. Final_Datasets\\1.Final_Without_Inpainting\\Resized\\All_In_Focus\\"
+    resizedpath="G:\\1. Final_Datasets\\1.Final_Without_Inpainting\\Normalized\\All_In_Focus\\"
     for filename in os.listdir(imgpath):
         img = cv2.imread(imgpath + filename, cv2.IMREAD_UNCHANGED)
         # output=cv2.resize(img, (640,480), interpolation = cv2.INTER_AREA)
