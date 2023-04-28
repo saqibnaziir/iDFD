@@ -39,3 +39,11 @@ The iDFD dataset and the code is released using the UPB license.
 
 ## Citation  
 If you use the iDFD dataset please cite:
+@inproceedings{nazir2023idfd,
+  title={iDFD: A Dataset Annotated for Depth and Defocus},
+  author={Nazir, Saqib and Qiu, Zhouyan and Coltuc, Daniela and Mart{\'\i}nez-S{\'a}nchez, Joaqu{\'\i}n and Arias, Pedro},
+  booktitle={Image Analysis: 23rd Scandinavian Conference, SCIA 2023, Sirkka, Finland, April 18--21, 2023, Proceedings, Part I},
+  pages={67--83},
+  year={2023},
+  organization={Springer}
+}
