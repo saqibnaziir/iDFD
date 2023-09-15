@@ -1,3 +1,5 @@
+%  Author: Saqib, nazir, Bucharest Polytechnic University
+%  E-mail: saqib.nazir@upb.ro
 clc % clear command window
 clear % clear workspace
 close all % clear all graphics
