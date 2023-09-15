@@ -1,3 +1,5 @@
+%  Author: Saqib, nazir, Bucharest Polytechnic University
+%  E-mail: saqib.nazir@upb.ro
 function [MOVINGREG] = registerImages(MOVING,FIXED,DEPTH)
 %  The values for all registration parameters were set interactively in the
 %  app and result in the registered image stored in the structure array MOVINGREG.
