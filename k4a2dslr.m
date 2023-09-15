@@ -1,5 +1,5 @@
-%  Author: Qiu,Zhouyan, University of Vigo
-%  E-mail: zhouyan.qiu@uvigo.es
+%  Author: Saqib, nazir, Bucharest Polytechnic University
+%  E-mail: saqib.nazir@upb.ro
 %  This MATLAB-Code was developed under MATLAB R2021a.
 %  -------------------------------------------------------------------------------------------------------------------------------------
 %% Mfile name: depthdenoisinginpainting.m
