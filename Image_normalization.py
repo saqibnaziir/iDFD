@@ -3,7 +3,8 @@
 Created on Tue Oct  4 11:41:45 2022
 G:\2.Final_Inpainting\All_In_Focus
 
-@author: loanr
+%  Author: Saqib, nazir, Bucharest Polytechnic University
+%  E-mail: saqib.nazir@upb.ro
 """
 
 import cv2
